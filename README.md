@@ -74,16 +74,16 @@ docker-compose run --rm rag-system python query.py
 **Single question:**
 
 ```bash
-docker-compose run --rm rag-system python query.py "What was the total revenue in fiscal year 2023?"
+docker-compose run --rm rag-system python query.py "What is the ultimate goal of humanity?"
 
 ```
 
 ### Development & Debugging
 
-To enter the container shell to run manual tests or check environment variables:
+To enter the container shell once it is running to run manual tests:
 
 ```bash
-docker-compose run --rm rag-system /bin/bash
+docker exec -it document_qa /bin/bash
 
 ```
 
