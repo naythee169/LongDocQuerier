@@ -1,0 +1,21 @@
+# Core dependencies — fully free, no paid APIs
+
+# PDF parsing
+pdfplumber>=0.10.0
+
+# Vector search (local, no API)
+faiss-cpu>=1.8.0
+
+# Keyword search (local, no API)
+rank-bm25>=0.2.2
+
+# Numpy (used by FAISS)
+numpy>=1.26.0
+
+# HTTP client for Jina AI API calls
+requests>=2.31.0
+
+# Groq SDK — free LLM inference (Llama 3, Mixtral)
+groq>=0.9.0
+
+python-dotenv>=1.0.0

@@ -1,0 +1,346 @@
+======================================================================
+Query      : Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2022?
+Timestamp  : 2026-03-16 20:53:36
+Chunks     : 5
+======================================================================
+
+CHUNK [1 of 5]
+  Chunk ID     : 86
+  Location     : Page 56 | NOTE 1. Significant Accounting Policies
+  Rerank score : 0.2983
+  RRF score    : 0.0145
+  Token count  : 507
+
+  Full text:
+  --------------------------------------------------
+  less.
+  
+  • Portfolio approach practical expedient relative to estimation of variable consideration.
+  
+  • “Right to invoice” practical expedient based on 3M’s right to invoice the customer at an amount that reasonably represents the value to the customer of 3M’s
+  
+  performance completed to date.
+  
+  • Election to present revenue net of sales taxes and other similar taxes.
+  
+  • Sales-based royalty exemption permitting future intellectual property out-licensing royalty payments to be excluded from the otherwise required remaining performance
+  
+  obligations disclosure
+  
+  The Company recognizes revenue from the rental of durable medical devices in accordance with the guidance of ASC 842,L eases. The Company recognizes rental revenue
+  
+  based on the length of time a device is used by the patient/organization, (i) at the contracted rental rate for contracted customers and (ii) generally, retail price for non-contracted
+  
+  customers. The leases are short-term in nature, generally providing for daily or monthly pricing, and are all classified as operating leases.
+  
+  Accounts receivable and allowances: Trade accounts receivable are recorded at the invoiced amount and do not bear interest. The Company maintains allowances for bad debts,
+  
+  cash discounts, and various other items. The allowances for bad debts and cash discounts are based on the best estimate of the amount of expected credit losses in existing
+  
+  accounts receivable and anticipated cash discounts. The Company determines the allowances based on historical write-off experience, current expectations of future credit losses
+  
+  informed by industry and regional economic data, and historical cash discounts. The Company reviews the allowances monthly. The allowances for bad debts as well as the
+  
+  provision for credit losses, write-off activity and recoveries for the periods presented are not material. The Company does not have any significant off-balance-sheet credit
+  
+  exposure related to its customers. The Company has long-term customer receivables that do not have significant credit risk, and the origination dates of which are typically not
+  
+  older than five years. These long-term receivables are subject to an allowance methodology similar to other receivables.
+  
+  Advertising and merchandising: These costs are charged to operations in the period incurred, and totaled $323 million, $327 million and $278 million in 2022, 2021 and 2020,
+  
+  respectively.
+  
+  Research, development and related expenses: These costs are charged to operations in the period incurred and are shown on a separate line of the Consolidated Statement of
+  
+  Income. Research, development and related expenses totaled $1.9 billion, $2.0 billion and $1.9 billion in 2022, 2021 and 2020, respectively. Research and development
+  
+  expenses, covering basic scientific research and the application of scientific advances in the development of new and improved products and their uses, totaled $1.1 billion, $1.2
+  
+  billion and $1.1 billion in 2022, 2021 and 2020, respectively. Related expenses primarily include technical support; internally developed patent costs, which include costs and
+  
+  fees incurred to prepare, file, secure and maintain patents; amortization of externally acquired patents and externally acquired in-process research and development; and
+  
+  gains/losses associated with certain corporate approved investments in R&D-related ventures.
+  
+  Internal-use software: The Company capitalizes direct costs of services used in the development of, and external software acquired for use as, internal-use software. Amounts
+
+======================================================================
+
+CHUNK [2 of 5]
+  Chunk ID     : 59
+  Location     : Pages 39–40 | FINANCIAL CONDITION AND LIQUIDITY
+  Rerank score : 0.2862
+  RRF score    : 0.0147
+  Token count  : 502
+
+  Full text:
+  --------------------------------------------------
+  Other — net |  | 1 |  |  | 31 |
+  
+  Net cash provided by (used in) investing activities |  | $ | (1,046) |  | $ | (1,317)
+  
+  Table of Contents
+  
+  3M invests in renewal and maintenance programs, which pertain to cost reduction, cycle time, maintaining and renewing current capacity, eliminating pollution, and
+  
+  compliance. Costs related to maintenance, ordinary repairs, and certain other items are expensed. 3M also invests in growth, which adds to capacity, driven by new products,
+  
+  both through expansion of current facilities and new facilities. Finally, 3M also invests in other initiatives, such as information technology (IT), laboratory facilities, and a
+  
+  continued focus on investments in sustainability.
+  
+  Refer to Note 3 for information on acquisitions and divestitures (including the cash payment from the Food Safety business split-off). The Company is actively considering
+  
+  additional acquisitions, investments and strategic alliances, and from time to time may also divest certain businesses.
+  
+  Purchases of marketable securities and investments and proceeds from maturities and sale of marketable securities and investments are primarily attributable to certificates of
+  
+  deposit/time deposits, commercial paper, and other securities, which are classified as available-for-sale. Refer to Note 11 for more details about 3M’s diversified marketable
+  
+  securities portfolio. Purchases of investments include additional survivor benefit insurance, plus investments in equity securities.
+  
+  Cash Flows from Financing Activities:
+  
+  Year ended December 31, (Millions) 2022 2021
+  
+  Change in short-term debt — net $ 340 $ (2)
+  
+  Repayment of debt (maturities greater than 90 days) (1,179) (1,144)
+  
+  Proceeds from debt (maturities greater than 90 days) 1 1
+  
+  Total cash change in debt (838) (1,145)
+  
+  Purchases of treasury stock (1,464) (2,199)
+  
+  Proceeds from issuances of treasury stock pursuant to stock option and benefit plans 381 639
+  
+  Dividends paid to shareholders (3,369) (3,420)
+  
+  Other — net (60) (20)
+  
+  Net cash provided by (used in) financing activities $ (5,350) $ (6,145)
+  
+  2022 Debt Activity:
+  
+  Total debt was approximately $15.9 billion at December 31, 2022 and $17.4 billion at December 31, 2021. Decreases in debt were largely due to the repayments of 500 million
+  
+  euros and $600 million aggregate principal amounts of fixed-rate medium-term notes in February 2022 and June 2022, respectively. The Company had no commercial paper
+  
+  outstanding at December 31, 2022 and 2021. In conjunction with the Food Safety Division split-off transaction and combination with Neogen (discussed in Note 3), the
+  
+  associated non-cash debt-for-debt exchange in the third quarter of 2022 reduced then-outstanding 3M commercial paper indebtedness of $350 million (borrowed earlier in the
+  
+  year) which became new term-debt obligations of Neogen. Net commercial paper issuances in addition to repayments and borrowings by international subsidiaries are largely
+  
+  reflected in “Change in short-term debt – net” in the preceding table. 3M’s primary short-term liquidity needs are met through cash on hand and U.S. commercial paper
+  
+  issuances. Refer to Note 12 for more detail regarding debt.
+  
+  2021 Debt Activity:
+  
+  Decreases in debt were largely due to the March 2021 early redemption of $450 million in debt maturing in 2022 via make-whole call offers and the November 2021 repayment
+
+======================================================================
+
+CHUNK [3 of 5]
+  Chunk ID     : 97
+  Location     : Pages 62–63 | NOTE 4. Goodwill and Intangible Assets
+  Rerank score : 0.2846
+  RRF score    : 0.0141
+  Token count  : 504
+
+  Full text:
+  --------------------------------------------------
+  3M’s share of earnings/losses on a lag-basis based on availability of Kindeva financial statements. As a result, income/loss from this unconsolidated subsidiary began to be
+  
+  reflected in 3M’s financial statements in the third quarter of 2020. Kindeva and 3M entered into certain limited-term agreements related to post-divestiture transition and supply
+  
+  services. In the fourth quarter of 2022, 3M sold its remaining ownership interest in Kindeva resulting in an immaterial gain.
+  
+  In the third quarter of 2020, 3M completed the sale of a small dermatology products business, formerly part of the Health Care business, for immaterial proceeds that
+  
+  approximated the business’s book value.
+  
+  Operating income and held-for-sale amounts:
+  
+  With respect to the businesses above, operating income information of the Health Care business segment, inclusive of the Food Safety Division and Drug Delivery Division, is
+  
+  included in Note 19. Further, with the respect to these businesses, there were immaterial amounts of assets and liabilities associated with disposal groups classified as held-for-
+  
+  sale as of December 31, 2021 and no such amounts as of December 31, 2022. Information related to other held-for-sale disposal groups is included in Note 15.
+  
+  62
+  
+  Table of Contents
+  
+  NOTE 4. Goodwill and Intangible Assets
+  
+  Goodwill
+  
+  There was no goodwill recorded from acquisitions during 2022 and 2021. The amounts in the “Translation and other” column in the following table primarily relate to changes
+  
+  in foreign currency exchange rates.
+  
+  The goodwill balance by business segment follows:
+  
+  Transportation and
+  
+  (Millions) Safety and Industrial Electronics Health Care Consumer Total Company
+  
+  Balance as of December 31, 2020 $ 4,687 $ 1,858 $ 6,992 $ 265 $ 13,802
+  
+  Translation and other (65) (33) (206) (12) (316)
+  
+  Balance as of December 31, 2021 $ 4,622 $ 1,825 $ 6,786 $ 253 $ 13,486
+  
+  Divestiture activity — — (16) — (16)
+  
+  Goodwill impairment — (271) — — (271)
+  
+  Translation and other (113) (53) (255) 12 (409)
+  
+  Balance as of December 31, 2022 $ 4,509 $ 1,501 $ 6,515 $ 265 $ 12,790
+  
+  Accounting standards require that goodwill be tested for impairment annually and between annual tests in certain circumstances such as a change in reporting units or the
+  
+  testing of recoverability of a significant asset group within a reporting unit. At 3M, reporting units correspond to a division.
+  
+  As described in Note 19, effective in the first quarter of 2022, the Company changed its business segment reporting. For any product changes that resulted in reporting unit
+  
+  changes, the Company applied the relative fair value method to determine the impact on goodwill of the associated reporting units, the results of which were immaterial.
+  
+  Goodwill balances reported above reflect these business segment reporting changes in the earliest period presented. The Company also completed its annual goodwill
+  
+  impairment test in the fourth quarter of 2022 for all reporting units and determined that no impairment existed. Additionally, in December 2022, as a result of 3M's commitment
+  
+  to a plan to exit per- and polyfluoroalkyl substance (PFAS) manufacturing as described in Note 15, 3M recorded a goodwill impairment charge of $0.3 billion related to the
+
+======================================================================
+
+CHUNK [4 of 5]
+  Chunk ID     : 119
+  Location     : Pages 76–77 | Other Credit Facilities
+  Rerank score : 0.2751
+  RRF score    : 0.0159
+  Token count  : 494
+
+  Full text:
+  --------------------------------------------------
+  billion and $1.25 billion credit agreements, the Company is required to maintain its EBITDA to Interest Ratio as of the end of each fiscal quarter at not less than3 .0 to 1. This is
+  
+  calculated (as defined in the agreement) as the ratio of consolidated total EBITDA for the four consecutive quarters then ended to total interest expense on all funded debt for the
+  
+  same period. At December 31, 2022, this ratio was approximately 19 to 1. Debt covenants do not restrict the payment of dividends.
+  
+  In December 2021 and June 2022, 3M entered into debt financing facilities providing commitments for term loans and potential bridge financing aggregating $1.0 billion
+  
+  related to the Food Safety Division split-off transaction and combination with Neogen (discussed in Note 3). The debt commitments also included a $150 million revolving
+  
+  credit facility for the Food Safety business. Coincident with completion of the September 2022 split-off, the Food Safety business term loan borrowings funded the cash
+  
+  payment to 3M discussed in Note 3. The bridge financing component of these facilities was terminated early and not utilized. Obligations under the commitments (including the
+  
+  $150 million revolving credit facility) transferred with the Food Safety business and became those of Neogen.
+  
+  Other Credit Facilities
+  
+  The Company also had an additional $318 million in stand-alone letters of credit and bank guarantees issued and outstanding at December 31, 2022. These instruments are
+  
+  utilized in connection with normal business activities.
+  
+  76
+  
+  Fixed-rate debt |  | $ | 14,738 |  | 2.93 | % | $ | 16,053 | 2.80 | %
+  
+  Floating-rate debt |  | 1,201 |  |  | 5.70 | % | 1,294 |  | 1.43 | %
+  
+  Total long-term debt, including current portion |  | $ | 15,939 |  |  |  | $ | 17,347 |  |
+  
+  Current portion of long-term debt |  | 1.93 | % |  | $ | 1,938 |  | $ | 1,291
+  
+  Other borrowings |  | — | % |  | — |  |  | 16 |
+  
+  Total short-term borrowings and current portion of long-term debt |  |  |  |  | $ | 1,938 |  | $ | 1,307
+  
+  $ 1,938 |  | $ | 1,100 |  | $ | 1,865 |  | $ | 1,438 |  | $ | 845 |  | $ | 8,753 | $ | 15,939
+  
+  Table of Contents
+  
+  Long-Term Debt Issuances and Fixed-to-Floating Interest Rate Swaps
+  
+  The principal amounts, interest rates and maturity dates of individual long-term debt issuances can be found in the long-term debt table found at the beginning of this note.
+  
+  During the second and third quarters of 2021, 3M entered into interest rate swaps with an aggregate notional amount of $800 million. These swaps converted $500 million and
+  
+  $300 million of 3M’s $1 billion and $650 million principal amount of fixed rate notes due 2049 and 2050, respectively, into floating rate debt for the portion of their terms
+  
+  through mid-2028 with an interest rate based on a three-month LIBOR index.
+
+======================================================================
+
+CHUNK [5 of 5]
+  Chunk ID     : 54
+  Location     : Pages 36–37 | FINANCIAL CONDITION AND LIQUIDITY
+  Rerank score : 0.2422
+  RRF score    : 0.0328
+  Token count  : 508
+
+  Full text:
+  --------------------------------------------------
+  the Company determines the liabilities are no longer necessary.
+  
+  NEW ACCOUNTING PRONOUNCEMENTS
+  
+  Information regarding new accounting pronouncements is included in Note 1 to the Consolidated Financial Statements.
+  
+  36
+  
+  Table of Contents
+  
+  FINANCIAL CONDITION AND LIQUIDITY
+  
+  The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy
+  
+  capital in accordance with the Company's stated priorities and meet needs associated with contractual commitments and other obligations. Investing in 3M’s business to drive
+  
+  organic growth and deliver strong returns on invested capital remains the first priority for capital deployment. This includes research and development, capital expenditures, and
+  
+  commercialization capability. The Company also continues to actively manage its portfolio through acquisitions and divestitures to maximize value for shareholders. 3M
+  
+  expects to continue returning cash to shareholders through dividends and share repurchases. To fund cash needs in the United States, the Company relies on ongoing cash flow
+  
+  from U.S. operations, access to capital markets and repatriation of the earnings of its foreign affiliates that are not considered to be permanently reinvested. For those
+  
+  international earnings still considered to be reinvested indefinitely, the Company currently has no plans or intentions to repatriate these funds for U.S. operations. See Note 10
+  
+  for further information on earnings considered to be reinvested indefinitely.
+  
+  3M maintains a strong liquidity profile. The Company’s primary short-term liquidity needs are met through cash on hand and U.S. commercial paper issuances. 3M believes it
+  
+  will have continuous access to the commercial paper market. 3M’s commercial paper program permits the Company to have a maximum of $5 billion outstanding with a
+  
+  maximum maturity of 397 days from date of issuance. The Company had no commercial paper outstanding at December 31, 2022 and December 31, 2021.
+  
+  Total debt:
+  
+  The strength of 3M’s credit profile and significant ongoing cash flows provide 3M proven access to capital markets. Additionally, the Company’s debt maturity profile is
+  
+  staggered to help ensure refinancing needs in any given year are reasonable in proportion to the total portfolio. As of December 2022, 3M has a credit rating of A1, stable
+  
+  outlook from Moody's Investors Service, and a credit rating of A+, CreditWatch negative from S&P Global Ratings.
+  
+  The Company’s total debt was lower at December 31, 2022 when compared to December 31, 2021. Decreases in debt were largely due to the repayments of 500 million euros
+  
+  and $600 million aggregate principal amounts of fixed-rate medium-term notes in February 2022 and June 2022, respectively. For discussion of repayments of and proceeds
+  
+  from debt refer to the following “Cash Flows from Financing Activities” section.
+  
+  In July 2017, the United Kingdom’s Financial Conduct Authority announced that it would no longer require banks to submit rates for the London InterBank Offered Rate
+  
+  (“LIBOR”) after 2021. In November 2020, the ICE Benchmark Administration (IBA), LIBOR’s administrator, proposed extending the publication of USD LIBOR through
+  
+  June 2023. Subsequently, in March of 2021, IBA ceased publication of certain LIBOR rates after December 31, 2021. USD LIBOR rates that did not cease on December 31,
+
+======================================================================
