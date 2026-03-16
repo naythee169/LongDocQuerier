@@ -113,13 +113,13 @@ PDF
              └─ generation.py   Prompt + chunks → Groq (Llama 3) → cited answer
 ```
 
-### Why hybrid retrieval?
+### Hybrid retrieval motivation
 
-Dense embeddings (Jina) capture semantic similarity but miss exact terms — critical for financial documents where "Note 14" or specific figures need exact matching. BM25 handles these cases. Combining both with Reciprocal Rank Fusion consistently outperforms either alone.
+Dense embeddings (Jina) capture semantic similarity but will miss exact terms — critical for financial documents where "Note 14" or specific figures need exact matching. BM25 handles these cases. Combining both with Reciprocal Rank Fusion should lead to an overall superior approach.
 
-### Why a reranker?
+### Reranker(cross-encoding) motivation
 
-The first-stage retrieval scores each chunk independently. The Jina reranker processes (query, chunk) jointly — equivalent to a cross-encoder — giving much more precise relevance scores. It's too slow to run over the whole index, so it only re-scores the top 20 candidates.
+The first-stage retrieval scores each chunk independently. The Jina reranker processes (query, chunk) jointly — equivalent to a cross-encoder — giving much more precise relevance scores. It's too slow to run over the whole index, so it only re-scores the top 20(hyperparameter) candidates.
 
 ---
 
