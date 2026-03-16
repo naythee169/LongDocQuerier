@@ -48,6 +48,9 @@ cd rag_system
 pip install -r requirements.txt
 ```
 
+Note: Python 3.11 is required. faiss-cpu does not currently have 
+a pre-built wheel for Python 3.13.
+
 ### 3. Set environment variables
 
 ```bash
