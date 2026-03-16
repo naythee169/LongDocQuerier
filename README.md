@@ -2,11 +2,9 @@
 
 A retrieval-augmented generation (RAG) system for answering questions over a single long document (100+ pages).
 
-**Total cost: $0.00** — all services used have a free tier requiring no credit card.
-
 | Component | Service | Model | Free tier |
 |---|---|---|---|
-| Embeddings | Jina AI | `jina-embeddings-v2-base-en` | 1M tokens/month |
+| Embeddings | Jina AI | `jina-embeddings-v2-base-en` | 1M tokens |
 | Re-ranking | Jina AI | `jina-reranker-v2-base-multilingual` | Free tier |
 | Generation | Groq | `llama-3.1-8b-instant` | 30 req/min, 6k tokens/min |
 
