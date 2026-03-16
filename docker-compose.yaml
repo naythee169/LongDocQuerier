@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  rag-system:
+    build: .
+    container_name: document_qa
+    volumes:
+      # This ensures your processed index stays on your host machine
+      - ./index:/app/index
+      # Optional: Mount a data folder to easily drop PDFs in
+      - ./data:/app/data
+    env_file:
+      - src/.env
+    stdin_open: true # Allows for interactive mode (python query.py)
+    tty: true

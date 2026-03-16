@@ -1,0 +1,6 @@
+{
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "embedding_model": "jina-embeddings-v2-base-en",
+  "num_chunks": 5
+}
