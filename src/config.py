@@ -1,6 +1,6 @@
 # Chunking
 CHUNK_SIZE = 512        # tokens per chunk (approximate, whitespace-based)
-CHUNK_OVERLAP = 50      # token overlap between consecutive chunks
+CHUNK_OVERLAP = 60      # token overlap between consecutive chunks
 
 #  Embedding
 # API docs: https://jina.ai/embeddings

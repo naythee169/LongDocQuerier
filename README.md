@@ -99,6 +99,77 @@ PDF
              └─ generation.py   Prompt + chunks → Groq (Llama 3) → cited answer
 
 ```
+## Execution Flow
+
+### Phase 1 — Ingestion (run once per document)
+```
+1. parse_document()       [parser.py]
+   └── pdfplumber extracts text and tables page by page
+   └── text split into overlapping chunks (~512 tokens, 50 token overlap)
+   └── paragraph boundaries respected, section headings detected
+   └── each chunk stores: text, chunk_id, page_start, page_end, heading
+
+2. _embed_texts()         [ingest.py]
+   └── each chunk's text sent to Jina AI Embeddings API
+   └── returns a 768-dimensional vector per chunk
+   └── similar chunks end up geometrically close in vector space
+
+3. _build_faiss_index()   [ingest.py]
+   └── vectors L2-normalised (so inner product == cosine similarity)
+   └── stored in a FAISS FlatIP index for exact nearest-neighbour search
+
+4. _build_bm25_index()    [ingest.py]
+   └── chunks tokenised and stored in a BM25Okapi index
+   └── enables fast keyword frequency scoring at query time
+
+5. save to ./index/       [ingest.py]
+   └── faiss.index  — all chunk vectors
+   └── bm25.pkl     — BM25 index
+   └── chunks.json  — full text and metadata for every chunk
+```
+
+---
+
+### Phase 2 — Querying (run per question)
+```
+1. Hybrid retrieval       [retrieval.py]
+   ├── Semantic search
+   │   └── query embedded via Jina AI (same model as ingestion)
+   │   └── FAISS finds top 20 nearest chunk vectors by cosine similarity
+   │   └── catches conceptual matches even when wording differs
+   │
+   └── BM25 keyword search
+       └── query tokenised and scored against all chunks
+       └── catches exact matches for specific terms, numbers, proper nouns
+
+2. RRF fusion             [retrieval.py]
+   └── two ranked lists combined via Reciprocal Rank Fusion
+   └── score = sum of 1/(60 + rank) across both lists
+   └── chunks ranking highly in both lists get boosted
+   └── raw scores discarded — only rank position matters
+   └── produces unified top 20 candidates
+
+3. Jina reranker          [retrieval.py]
+   └── all 20 (query, chunk) pairs sent to Jina Reranker API
+   └── query and chunk processed jointly through a cross-encoder transformer
+   └── every query token attends to every chunk token via self-attention
+   └── produces a calibrated relevance score (0-1) per pair
+   └── top 5 chunks returned ordered by relevance score
+
+4. Abstention check       [generation.py]
+   └── if best rerank score < 0.1, system abstains without calling LLM
+   └── prevents hallucination when no relevant content was retrieved
+
+5. Prompt construction    [generation.py]
+   └── top 5 chunks formatted as numbered excerpts [1] through [5]
+   └── each excerpt labelled with page number and section heading
+   └── system prompt instructs LLM to cite sources and abstain if unsure
+
+6. LLM generation         [generation.py]
+   └── prompt sent to Groq API (Llama 3.1-8b-instant)
+   └── answer generated with inline citations e.g. [1], [2][3]
+   └── answer grounded in provided excerpts only
+```
 
 ### Hybrid Retrieval Motivation
 
@@ -124,6 +195,7 @@ Testing was conducted manually with a 300-page novel and a 250-page FinanceBench
 * **English language**: BM25 tokenizer is whitespace-based and optimized for English.
 * **Text-based PDFs**: Documents with heavy visual elements (images/charts) will not perform well.
 * **Rate limits**: Free tiers are limited to 30 requests/minute and fixed credit quotas.
+* **Context**: To answer questions that require information scattered throughout the text, this model will perform poorly because it is designed to extract information from specific chunks
 
 ## Future Improvements
 
